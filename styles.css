@@ -1,0 +1,330 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+header {
+    padding: 40px;
+    background: gray;
+  }
+
+header h1{
+    
+    font-size: 60px;
+    background-color: lightblue;
+    color: white;
+    width: fit-content;
+    padding: 20px;
+    border: solid black 1px;
+}
+/* NAV BAR */
+
+nav{
+  float:right
+ 
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+
+.HOME{
+    border-right: solid 5px lightblue;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.ABOUT{
+    border-right: solid 5px lightblue;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.WORK{
+    border-right: solid 5px lightblue;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.CONTACT{
+    border-right: solid 5px lightblue;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+/* FULL-STACK & IMAGE */
+
+.titleImg{
+    background-image: url(Images/BLUE-TITLE-IMG.png);
+    width: 100%;
+    height: 15em;
+}
+
+.titleImg p{
+    font-size: 60px;
+    background-color: lightblue;
+    color: white;
+    float: left;
+    width: fit-content;
+    margin-left: 30px;
+    padding: 20px;
+    border: solid black 1px;
+}
+
+.CHARLES{
+    width: 300px;
+    height: 300px;
+}
+/* ABOUT ME */
+
+.aboutMe{
+    margin-top: 8em;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aboutMe h1{
+    font-size: 80px;
+    margin-left: 1em;
+    float: left;
+}
+
+.aboutMe p{
+    font-size: 40px;
+    height: 100%;
+    margin-left: 12em;
+    margin-right: 6em;
+    border-left: solid 5px black ;
+    padding-left: 1em;
+    text-align: center;
+}
+
+/* MY WORK */
+
+.myWork{
+    float: left;
+    margin-top: 4.3em;
+    max-width: 100%;
+    margin-left: 4.3em;
+}
+
+.myWork h1{
+    font-size: 80px;
+    float: left;
+    padding-right: 1em;
+}
+
+.workContent{
+    border-left: solid 5px black ;
+    padding-left: 3em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.IMAGE1{
+    width: 77.5em;
+    border: solid 3px lightblue;
+    width: 621px;
+    height: 346px;
+}
+
+.IMAGE2{
+    
+    border: solid 3px lightblue;
+    width: 621px;
+    height: 346px;
+}
+
+.IMAGE3{
+    
+    border: solid 3px lightblue;
+    width: 621px;
+    height: 346px;
+}
+
+.IMAGE4{
+    
+    border: solid 3px lightblue;
+    width: 621px;
+    height: 346px;
+}
+
+/* CONTACT ME */
+
+.contactME{
+    float: left;
+    margin-top: 4.3em;
+    max-width: 100%;
+    margin-left: 4.3em;
+}
+
+.contactME h1{
+    font-size: 65px;
+    
+    float: left;
+}
+
+.form{
+    font-size: 40px;
+    height: 100%;
+    margin-left: 10.2em;
+    border-left: solid 5px black ;
+    padding-left: 1em;
+    text-align: center;
+    margin-bottom: 5em;
+}
+
+#input-name{
+    width: 350px;
+    box-sizing: border-box;
+}
+
+#input-email{
+    width: 350px;
+    box-sizing: border-box;
+}
+
+#input-message{
+    width: 713px;
+    box-sizing: border-box;
+}
+
+#input-submit{
+    width: 200px;
+    box-sizing: border-box;
+}
+
+
+
+@media screen and (max-width:1350px){
+   
+    header{
+        width: 71.3em;
+    }
+
+    .titleImg{
+        width: 76.3em;
+    }
+
+    .aboutMe p{
+        order: 2;
+        border-left: none;
+        padding-left: 8em;
+        margin: 0px;
+       
+
+    }
+    .aboutMe h1{
+        padding-left: 5em;
+     font-size: 80px;
+    }
+
+   nav{
+       float: none;
+   }
+   .myWork{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20em;
+    
+}
+.workContent{
+    border-left: none;
+     
+}
+
+.myWork h1{
+    padding-left: 2em;
+}
+
+.form{
+    border-left: none;
+    text-align: left;
+    margin-left: 5em;
+}
+
+.contactME{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contactME h1{
+    padding-left: 6em;
+}
+
+}
+
+@media screen and (max-width:850px){
+    
+    .aboutMe{
+            flex-direction: column;
+        }
+        
+        .aboutMe p{
+            order: 2;
+            border-left: none;
+            padding-top: 1em;
+            margin: 0px;
+        }
+}
+
+@media screen and (max-width:650px){
+    
+
+    .aboutMe{
+        flex-direction: column;
+    }
+    
+    .aboutMe p{
+        order: 2;
+        border-left: none;
+        padding-top: 1em;
+        margin: 0px;
+    }
+
+    .titleImg{
+        max-width: 100%;
+    }
+   
+
+}
+
+
+.HOME:hover{
+    color: black;
+}
+
+.ABOUT:hover{
+    color: black;
+}
+
+.WORK:hover{
+    color: black;
+}
+
+.CONTACT:hover{
+    color: black;
+}
+
+.IMAGE1:hover{
+    transform: scale(1.5);
+    cursor: grab;
+}
+
+.Website2:hover{
+    transform: scale(1.5);
+    cursor: grab;
+}
+
+.Website3:hover{
+    transform: scale(1.5);
+    cursor: grab;
+}
+
+.Website4:hover{
+    transform: scale(1.5);
+    cursor: grab;
+}
